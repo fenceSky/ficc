@@ -14,12 +14,9 @@
 		jdbc:mysql://127.0.0.1:3306/ficc?characterEncoding=utf8
 	</property>
 	
-	<!--
+	
 	<property name="connection.username">ficc</property>
 	<property name="connection.password">L0RVEoCvXCG8</property>
-  -->
-	<property name="connection.username">root</property>
-	<property name="connection.password">woaixingkong008</property>
 	
 	<property name="connection.driver_class">
 		com.mysql.jdbc.Driver
