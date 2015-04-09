@@ -1,0 +1,27 @@
+{
+     "button":[
+      {
+           "name":"活动",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"最新活动",
+               "url":"http://123.56.46.250/"
+            },
+            {
+               "type":"click",
+               "name":"发起活动",
+               "key":"START_NEW_ACTIVITY"
+            }]
+       }, {	
+          "type":"click",
+          "name":"实名认证",
+          "key":"ACCOUNT_VERIFY"
+      },
+     {	
+               "type":"view",
+               "name":"我的服务",
+               "url":"http://www.ihaomen.com/weixinlogin.jsp?state=userinfo"
+     	}
+	]
+}

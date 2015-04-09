@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>凌云财经后台管理</title>
+<link rel='stylesheet' id='main-css' href='style/style.css'
+	type='text/css' media='all' />
+<style>
+a:hover,a:focus,.post-like.actived,.excerpt h2 a:hover,.user-welcome strong,.article-title a:hover,#comments b,.text-muted a:hover,.relates a:hover,.archives .item:hover h3,.linkcat h2,.sticky a:hover,.article-content a:hover,.nav li.current-menu-item>a,.nav li.current-menu-parent>a,.nav li.current_page_item>a,.nav li.current-posa,.article-meta a:hover
+	{
+	color: #1e73be;
+}
+
+.logo a,.article-tags a,.search-form .btn,.widget_tags_inner a:hover:hover,.focusmo a:hover h4,.tagslist .tagname:hover,.pagination ul>li.next-page>a
+	{
+	background-color: #1e73be;
+}
+
+.label-important,.badge-important {
+	background-color: #1e73be;
+}
+
+.label-important .label-arrow,.badge-important .label-arrow {
+	border-left-color: #1e73be;
+}
+
+.title strong {
+	border-bottom-color: #1e73be;
+}
+
+#submit {
+	background: #1e73be;
+	border-right: 2px solid #1e73be;
+	border-bottom: 2px solid #1e73be;
+}
+
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="js/extjs/ext-theme-neptune/build/resources/ext-theme-neptune-all.css">
+       <script type="text/javascript" src="js/extjs/ext-all.js"></script> 
+       <script type="text/javascript" src="js/extjs/ext-theme-neptune/build/ext-theme-neptune.js"></script>
+
+        <script type ="text/javascript" src="js/buffered-store.js"></script>
+
+</head>
+
+<body>
+    <h1>Grid with Buffered Store</h1>
+    <p>A BufferedStore allows only a small section of a potentially very large server-side dataset to be loaded when
+    required to be displayed, and then discarded when scrolled out of view.</p>
+    <p>Usage of a BufferedStore causes buffered rendering of just the <b>visible</b> range of grid data.</p>
+    <p>The "Topic" column is configured <b><code>cellWrap: true</code></b> and allows text to wrap. This causes the buffered renderer to
+    use <b><code>variableRowHeight: true</code></b>.</p>
+    <p>The number of rendered rows is only just larger than the visible row count. As the edge of the rendered data scrolls towards being in
+        view, the table has new rows appended just in time, and rows removed from the receding side.</p>
+    <p>The code is not minified, see <a href="buffered-store.js">buffered-store.js</a></p>
+</body>
+
+</html>
